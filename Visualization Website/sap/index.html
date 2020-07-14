@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TSA</title>
+    <link href="dist/css/style.min.css" rel="stylesheet">
+    <script src="../assets/node_modules/jquery/jquery-3.2.1.min.js"></script>
+    <script src="../assets/node_modules/bootstrap/js/bootstrap.min.js"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"></script>
+    <style type="text/css">
+.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#000;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:red;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+    </style>
+</head>
+
+<body class="skin-default-dark fixed-layout">
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader__figure"></div>
+            <p class="loader__label">Twitter Sentiment Analysis</p>
+        </div>
+    </div>
+    
+    <div id="main-wrapper" style="">
+    
+    <header class="topbar" style="z-index:10">
+            <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+                <!-- ============================================================== -->
+                <!-- Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-header">
+                   <h5>Visualization Dashboard</h5> 
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+            </nav>
+		</header>
+    
+    	<aside class="left-sidebar">
+            <div class="d-flex no-block nav-text-box align-items-center" style="color:white">
+                <span><a class="" style="color:#fff" href="index.html">TSA</a></span>
+                <a class="nav-lock waves-effect waves-dark ml-auto hidden-md-down" href="javascript:void(0)"><i class="mdi mdi-toggle-switch" style="font-size:25px"></i></a>
+                <a class="nav-toggler waves-effect waves-dark ml-auto hidden-sm-up" href="javascript:void(0)"><i class="ti-menu ti-close" style="font-size:25px"></i></a>
+            </div>
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li> <a class="waves-effect waves-dark" href="index.html" aria-expanded="false"><i class="far fa-circle text-danger"></i><span class="hide-menu">Home</span></a></li>
+                        <li> <a class="waves-effect waves-dark" href="sentiment-trend.html" aria-expanded="false"><i class="far fa-circle text-success"></i><span class="hide-menu">Sentiment Trend</span></a></li>
+                        <li> <a class="waves-effect waves-dark" href="population.html" aria-expanded="false"><i class="far fa-circle " style="color:yellow"></i><span class="hide-menu">Population</span></a></li>
+                        <li> <a class="waves-effect waves-dark" href="polarity.html" aria-expanded="false"><i class="far fa-circle " style="color:green"></i><span class="hide-menu">Polarity</span></a></li>
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+        </aside>
+		
+		<div class="page-wrapper">
+             <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12" style="background-color: none;">
+                        <center><h1>Sentiments Analysis Of COVID-19 Tweets</h1></center>        					
+    				</div> 
+    				<div class="col-4" style="padding-top: 7%">
+    					    	<center><a href="sentiment-trend.html" class="myButton" style="background-color:transparent;">Sentiment Trend</a></center>
+    				</div> 
+    				<div class="col-4" style="padding-top: 7%">
+    					    	<center><a href="population.html" class="myButton" style="background-color:transparent;">Population Wise COVID Analysis</a></center>
+    				</div>  
+    				<div class="col-4" style="padding-top: 7%">
+    					    	<center><a href="polarity.html" class="myButton" style="background-color:transparent">Polarity & Subjectivity</a></center>
+    				</div>     
+    			</div>
+    		</div>
+    	</div>
+
+    <script src="dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="dist/js/custom.min.js"></script>
+  
+</body>
+</html>
