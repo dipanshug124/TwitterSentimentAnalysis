@@ -1,8 +1,4 @@
-<?php 
-session_start();
-$name = $_SESSION["login_name"];
-$type = $_SESSION["type"];
-?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -103,9 +99,9 @@ body {font-family: Arial;}
                 <!-- ============================================================== -->
                 <!-- Logo -->
                 <!-- ============================================================== -->
-                <div class="navbar-header">
+                <a href="index.html">
                    <h5>Visualization Dashboard</h5> 
-                </div>
+               </a>
                 <!-- ============================================================== -->
                 <!-- End Logo -->
                 <!-- ============================================================== -->
@@ -136,7 +132,7 @@ body {font-family: Arial;}
 		<div class="page-wrapper">
              <div class="container-fluid">
                 <div class="row">
-                <div class="col-12">
+                <div class="col-sm-12">
                         <div class="card">
                             <div class="card-body">
                 <div class='tableauPlaceholder' id='viz1594485285367' style='position: relative'>
@@ -173,7 +169,7 @@ body {font-family: Arial;}
             </div>
             </div>
             </div>
-                    <div class="col-12">
+                    <div class="col-sm-12">
                         <div class="card">
                             <div class="card-body">
                             <center>
