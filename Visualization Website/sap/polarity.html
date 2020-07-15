@@ -1,8 +1,4 @@
-<?php 
-session_start();
-$name = $_SESSION["login_name"];
-$type = $_SESSION["type"];
-?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -63,7 +59,9 @@ $type = $_SESSION["type"];
                 <!-- Logo -->
                 <!-- ============================================================== -->
                 <div class="navbar-header">
+                   <a href="index.html">
                    <h5>Visualization Dashboard</h5> 
+               </a>
                 </div>
                 <!-- ============================================================== -->
                 <!-- End Logo -->
@@ -95,7 +93,7 @@ $type = $_SESSION["type"];
 		<div class="page-wrapper">
              <div class="container-fluid">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-sm-4">
                         <div class="card">
                             <div class="card-body">
                                <div class='tableauPlaceholder' id='viz1594720758980' style='position: relative'><noscript>
@@ -128,7 +126,7 @@ $type = $_SESSION["type"];
                         </div>
                     </div>
 
-                    <div class="col-8">
+                    <div class="col-sm-8">
                         <div class="card">
                             <div class="card-body">
                           <div class='tableauPlaceholder' id='viz1594719729689' style='position: relative'><noscript>
@@ -160,7 +158,7 @@ $type = $_SESSION["type"];
                         </div>
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-sm-12">
                         <div class="card">
                             <div class="card-body">
                         <div class='tableauPlaceholder' id='viz1594723131685' style='position: relative'><noscript>
