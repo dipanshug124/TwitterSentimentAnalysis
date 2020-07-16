@@ -1,5 +1,5 @@
 # SBSPS-Challenge-2598-Twitter-Sentiment-Analysis  
-Sentimental Analysis on Twitter of COVID-19 tweets  
+The sentiment analysis of Indians after the extension of lockdown announcements to be analyzed with the relevant #tags on twitter and build a predictive analytics model to understand the behavior of people if the lockdown is further extended. Also develop a dashboard with visualization of people reaction to the govt announcements on lockdown extension.  
 
 `Website Link`: [TSA](https://smartpracticeschool.github.io/SBSPS-Challenge-2598-Twitter-Sentiment-Analysis/Visualization%20Website/sap/index.html)  
 `Video Explaination`: https://drive.google.com/file/d/1n9pUBTNtpbAKnvoJ0HTzufntSq60fyFa/view?usp=sharing  
