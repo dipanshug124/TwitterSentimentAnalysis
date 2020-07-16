@@ -41,7 +41,7 @@ Click [here](https://github.com/SmartPracticeschool/SBSPS-Challenge-2598-Twitter
 3) Stop words Removal
 4) Stemming
 5) Lemmatizing  
-Click [here](https://github.com/SmartPracticeschool/SBSPS-Challenge-2598-Twitter-Sentiment-Analysis/tree/master/DataPreprocessing)  
+Click [here](https://github.com/SmartPracticeschool/SBSPS-Challenge-2598-Twitter-Sentiment-Analysis/tree/master/DataPreprocessing) for Data Preprocessing Folder
 
 **Analyzing Polarity and Subjectivity**  
 Each Tweet will be subdivided according to Polarity and Subjectivity:
@@ -56,7 +56,7 @@ Each Tweet will be subdivided according to Polarity and Subjectivity:
 **Analyzing tweet using IBM Watson Tone Analyzer**  
 Analyzes the sentiment in the deeper way to classify and reveal the trend more comprehensively.  
 This technique uses linguistic analysis to detect joy, sadness, anger, fear, analytical, tentative and also confidence tones found in text.  
-  [ToneAnalyzer](https://github.com/SmartPracticeschool/SBSPS-Challenge-2598-Twitter-Sentiment-Analysis/tree/master/ToneAnalyzer) folder contains all files for this process.  
+    [ToneAnalyzer](https://github.com/SmartPracticeschool/SBSPS-Challenge-2598-Twitter-Sentiment-Analysis/tree/master/ToneAnalyzer) folder contains all files for this process.  
   [IBM Watson Tone Analyzer](https://github.com/SmartPracticeschool/SBSPS-Challenge-2598-Twitter-Sentiment-Analysis/blob/master/ToneAnalyzer/IBMToneAnalyzerAPI.ipynb), code for calling API from IBM Cloud Service.  
   [Dataset Creation](https://github.com/SmartPracticeschool/SBSPS-Challenge-2598-Twitter-Sentiment-Analysis/blob/master/ToneAnalyzer/SentimentDatasetCreation.ipynb), seperate dataset is created for each sentiment.  
 
