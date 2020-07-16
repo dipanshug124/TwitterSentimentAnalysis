@@ -1,5 +1,9 @@
 # SBSPS-Challenge-2598-Twitter-Sentiment-Analysis  
-Sentimental Analysis on Twitter of COVID-19 tweets
+Sentimental Analysis on Twitter of COVID-19 tweets  
+
+`Website Link`: [TSA](https://smartpracticeschool.github.io/SBSPS-Challenge-2598-Twitter-Sentiment-Analysis/Visualization%20Website/sap/index.html)  
+`Video Explaination`: https://drive.google.com/file/d/1n9pUBTNtpbAKnvoJ0HTzufntSq60fyFa/view?usp=sharing  
+`PPT Explaination`: https://drive.google.com/file/d/1ZMPTEt26YY8UiGMDeT5MknRKUEoF11lZ/view?usp=sharing  
 
 ## Objective
 Twitter hosts abundant user-generated posts, which closely reflect the public’s reactions towards this pandemic with low latency.  
@@ -74,7 +78,7 @@ Stack used:
 [Website code](https://github.com/SmartPracticeschool/SBSPS-Challenge-2598-Twitter-Sentiment-Analysis/tree/master/Visualization%20Website)  
 
 ## Summary  
-You can visit [Visualization Dashboard]() for analyzing tweets. 
+You can visit [Visualization Dashboard](https://smartpracticeschool.github.io/SBSPS-Challenge-2598-Twitter-Sentiment-Analysis/Visualization%20Website/sap/index.html) for analyzing tweets. 
 
 
 
